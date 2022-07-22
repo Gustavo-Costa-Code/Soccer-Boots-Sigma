@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+body {
+    background-image: url(../content/backgroundImage.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 50px 15px;
+    height: 100%;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header__block, .footer__block {
+    width: 50%;
+}
+
+.header__title, .footer__title {
+    font-size: 30px;
+    font-weight: bold;
+    color: #DB2800;
+}
+
+.header__subtitle, .footer__subtitle {
+    font-size: 24px;
+    font-weight: 500;
+    color: #F2580C;
+    padding-left: 55px;
+}
+
+.header__links {
+    padding-top: 15px;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__link {
+    color: #F2580C;
+    font-size: 22px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.header__icon {
+    height: 40px;
+    width: 40px;
+}
+
+.main__title {
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    color: #DB2800;
+    padding-top: 100px;
+}
+
+.main__cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    margin-top: 50px;
+    width: 300px;
+    height: 400px;
+    background-color: #101010;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 5px 5px 25px -3px #000000;
+}
+
+.card__image {
+    border-radius: 12px;
+    width: 280px;
+    height: 150px;
+    margin: 10px;
+}
+
+.card__title {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 15px;
+}
+
+.card__description {
+    padding: 15px 50px;
+    color: #888888;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.card__price {
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.card__button {
+    margin: 15px auto;
+    width: 100px;
+    padding: 5px;
+    border-radius: 12px;
+    background-color: #DB2800;
+}
+
+.card__button a {
+    color: white;
+    text-decoration: none;
+
+}
+
+footer {
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer__block p {
+    color: #F2580C;
+    font-size: 20px;
+    padding-top: 15px;
+}
+
+.contato__title {
+    color: #F2580C;
+    padding-top: 50px;
+    text-align: center;
+}
+
+form {
+    padding: 10px;
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+label, input {
+    display: block;
+    margin-bottom: 8px;
+}
+
+label {
+    color: white;
+}
+
+input {
+    width: 100%;
+    padding: 5px;
+}
+
+input[type="submit"]{
+    background-color: #F2580C;
+    color: white;
+    border: 0;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.contato__message {
+    color: #DB2800;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.produto__imagem {
+    width: 300px;
+    height: 300px;
+    margin: 30px auto;
+}
+
+.produto__imagem img {
+    width: 300px;
+}
+
+.produto__text {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 5px;
+}
+
+.produto__payment {
+    margin: 50px 0;
+    color: #DB2800;
+    text-align: center;
+}
+
+.payment__img {
+    width: 40px;
+    height: 40px;
+}
+
+.produto__buttons {
+    display: block;
+    margin: 15px auto;
+    width: 300px;
+    padding: 5px;
+    border-radius: 12px;
+    background-color: #DB2800;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+@media screen and (max-width:992px) {
+    .main__cards {
+        width: 300px;
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+    .header__block, .footer__block {
+        width: 100%;
+        text-align: center;
+    }
+    .header__subtitle, .footer__subtitle {
+        padding-left: 0;
+    }
+    .header__links {
+        justify-content: space-around;
+    }
+}
