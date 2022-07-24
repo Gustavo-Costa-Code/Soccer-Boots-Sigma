@@ -11,24 +11,21 @@ if (isset ( $_POST['txtNome'])) {
     $mensagem = $_POST['txtMensagem'];
     ?>
     <h1 class="contato__message">
-    <?php echo "Muito obrigado pela sua mensagem $nome";?>
+    <?php echo "Muito obrigado por se cadastrar $nome";?>
     </h1>
     <?php
 }
 ?>
 
-<main>
-<h1 class="contato__title">Contato</h1>
+<h1 class="contato__title">Cadastro</h1>
 <form action="./contato.php" method="post">
-    <label for="txtNome">Nome Completo</label>
-    <input type="text" name="txtNome" id="txtNome">
     <label for="txtEmail">E-mail</label>
     <input type="text" name="txtEmail" id="txtEmail">
-    <label for="txtMensagem">Mensagem</label>
-    <input type="text" name="txtMensagem" id="txtMensagem">
-    <input type="submit" value="Enviar">
+    <label for="txtSenha">Senha</label>
+    <input type="text" name="txtSenha" id="txtSenha">
+    <input type="submit" value="Cadastrar">
 </form>
-</main>
+
 <?php
 include_once './includes/_footer.php';
 ?>

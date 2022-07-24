@@ -9,7 +9,7 @@
             <a class="header__link" href="index.php"><li>Home</li></a>
             <a class="header__link" href="produtos.php"><li>Produtos</li></a>
             <a class="header__link" href="contato.php"><li>Contato</li>
-            <a href="contato.php"><img src="content/personIcon.png" alt="Icone de uma pessoa" class="header__icon"></a>
+            <a href="cadastro.php"><img src="content/personIcon.png" alt="Icone de uma pessoa" class="header__icon"></a>
         </ul>
     </div>
 </header>
