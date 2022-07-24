@@ -13,8 +13,8 @@ include_once './includes/_dados.php';
         <input type="text" name="txtVencimento" id="txtVencimento">
         <label for="txtCodigo">Código de Segurança: </label>
         <input type="text" name="txtCodigo" id="txtCodigo">
-        <label for="txtNomet">Nome do titular: </label>
-        <input type="text" name="txtNomet" id="txtNoet">
+        <label for="txtNomeTitular">Nome do titular: </label>
+        <input type="text" name="txtNomeTitular" id="txtNomeTitular">
         <label for="txtVencimento">CPF do titular: </label>
         <input type="text" name="txtCPF" id="txtCPF">
         <label for="txtVencimento">Data de nascimento: </label>
